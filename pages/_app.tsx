@@ -1,6 +1,5 @@
 import type { AppProps } from 'next/app'
 import { FC } from 'react'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { styled, globalCss } from 'stitches.config'
 import globalStyles from 'css/cssglobal'
 

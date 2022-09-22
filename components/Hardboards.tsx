@@ -2,8 +2,6 @@ import { FC, useEffect, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { styled } from 'stitches.config'
-import Titleleft from './TitleLeft'
-
 import {
   backgroundSkeleton,
   highSkeletonLight,
@@ -28,6 +26,12 @@ const Newboad = styled('div', {
   padding: '$2'
 })
 
+const H1left = styled('h1', {
+  textAlign: 'left',
+  fontFamily: 'Poppins0',
+  color: '$grey'
+})
+
 type Newboards = {
   living_code_link: string
   name: string
@@ -35,7 +39,7 @@ type Newboards = {
   description: string
 }
 
-const NewBoards: FC = () => {
+const Hardboards: FC = () => {
   const [newBoards, setnewBoards] = useState<Newboards[]>([])
   const [loading, setLoading] = useState<boolean>(true)
   const [timeMs, setTimeMs] = useState<number>(2000)
@@ -53,7 +57,7 @@ const NewBoards: FC = () => {
 
   return (
     <>
-      <Titleleft>Novos Algoritimos</Titleleft>
+      <H1left>sadsad</H1left>
       <Newboads>
         {loading ? (
           <>
@@ -88,4 +92,4 @@ const NewBoards: FC = () => {
   )
 }
 
-export default NewBoards
+export default Hardboards

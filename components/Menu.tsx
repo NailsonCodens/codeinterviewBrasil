@@ -6,22 +6,29 @@ const ImgNav = styled('img', {})
 const MenuHTML = styled('nav', {
   background: '$purpleBlack',
   width: '100%',
-  height: '100%',
+  height: '50px',
+  lineHeight: '50px',
   [`& ${ImgNav}`]: {
     width: '50px',
     margin: 4
-  }
+  },
+  textAlign: 'center'
+})
+
+const Link = styled('a', {
+  color: '$white',
+  fontFamily: 'Poppins',
+  fontWeight: '600',
+  textDecoration: 'none',
+  margin: 20
 })
 
 const Menu: FC = () => {
   return (
     <MenuHTML>
-      <a href="">
-        <ImgNav src="https://cdn-icons-png.flaticon.com/512/234/234633.png" />
-      </a>
-      <a href="">Início</a>
-      <a href="">Categorias</a>
-      <a href="">Contato</a>
+      <Link href="">Início</Link>
+      <Link href="">Categorias</Link>
+      <Link href="">Contato</Link>
     </MenuHTML>
   )
 }

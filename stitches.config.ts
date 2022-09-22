@@ -25,9 +25,10 @@ export const {
     },
     colors: {
       white: '#fff',
-      grey: '#2E2E2E',
+      grey: '#606060',
       purple: '#836FFF',
       purpleBlack: '#6A5ACD',
+      purpleDark: '#6A5ACD',
       purpleLight: '#8470FF'
     },
     fontSizes: {
