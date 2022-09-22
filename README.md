@@ -1,7 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-</style>
-
 <h1 style="font-family:'poppins';">
 Whiteboard Brasil
 </h1>
