@@ -1,5 +1,5 @@
 <h1 style="font-family:'poppins';">
-Whiteboard Brasil
+Code Interview Brasil
 </h1>
 
 <p style="font-family:'poppins';">Plataforma voltada ao ensino dos fundamentos da computação com diversos testes de quadro branco para entrevistas. Testes explicados e comentados para que você se torne o próximo engenheiro e software.</p>
