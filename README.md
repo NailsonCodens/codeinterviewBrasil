@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+</style>
 
-## Getting Started
+<h1 style="font-family:'poppins';">
+Whiteboard Brasil
+</h1>
 
-First, run the development server:
+<p style="font-family:'poppins';">Plataforma voltada ao ensino dos fundamentos da computação com diversos testes de quadro branco para entrevistas. Testes explicados e comentados para que você se torne o próximo engenheiro e software.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![Status](https://img.shields.io/badge/status-developing-%236A5ACD?style=for-the-badge)
+![language](https://img.shields.io/badge/Desenvolvido%20em%20-typescript-%233178c6?style=for-the-badge&)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<i style="font-family:'poppins'; font-size:15px;">Este software é e sempre vai ser de código aberto.</i>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+> Aqui você vai entender padrões de projetos, fundamentos e estruturas é o cerne de qualquer linguagem de programação, softwares e sistemas.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Você vai aprender:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [x] Fundamentos da computação;
+- [x] Estrutura de dados (Arrays, Objetos, Arvore, Lista, Fila, Grafos e etc)
+- [x] Príncipios (<b>S.O.L.I.D</b>, Clean Code, KISS, YAGN, DRY)
+- [x] Padrão de projetos <i>(MVC, Package By Feature)</i>
+- [x] Pensamento computacional
+- [ ] Dicionário computeiro ![badge](https://img.shields.io/badge/-Futuro-%232E2E2E)
+- [x] Como se preparar para uma entrevista de código ![badge](https://img.shields.io/badge/-Futuro-%232E2E2E)
 
-## Learn More
+## 📫 Precisamos de colaboradores.
 
-To learn more about Next.js, take a look at the following resources:
+No momento a plataforma terá quadros brancos apenas em Type Script ![badge](https://img.shields.io/badge/--%23ffffff?logo=typescript&style=for-the-badge)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Estamos procurando colaboradores que queiram participar do projeto para escrever os códigos de algoritimos nas linguagens que conhecem. Toda e qualquer linguagem conhecida é bem-vinda.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Como: Python, Java, Go, NodeJs, C, C++, C#, PHP dentre outras.
 
-## Deploy on Vercel
+## 😄 Seja um dos contribuidores<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Nos envie um e-mail para nos ajudar
+nailson@codens.com.br
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
